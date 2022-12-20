@@ -131,6 +131,10 @@ img {
                      /* TABLET */
  @media screen and (max-width: 768px) {
 
+    body{
+            overflow-x: hidden;
+    }
+
     .lessons .container,
     .steps .container,
     .why-us .container
@@ -167,4 +171,18 @@ img {
             margin: -3rem 0 0;
             padding-top: 3rem;
         }
+  }
+
+  @media screen and (max-width: 1160px) {
+
+      body {
+          overflow-x: hidden;
+      }
+
+      .lessons .container,
+      .steps .container,
+      .why-us .container {
+          max-width: 100vw;
+      }
+
   }
