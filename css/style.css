@@ -147,6 +147,13 @@ img {
                     /* MOBILE */
   @media screen and (max-width: 480px) {
 
+        .lessons .col,
+        .steps .col,
+        .why-us .col
+        {
+            width: 65%;
+        }
+
         .lessons .row, 
         .steps .row,
         .why-us .row
@@ -172,6 +179,8 @@ img {
             padding-top: 3rem;
         }
   }
+
+        /* desktop */
 
   @media screen and (max-width: 1160px) {
 
