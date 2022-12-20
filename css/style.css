@@ -128,21 +128,23 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- /* TABLET */
-
+                     /* TABLET */
  @media screen and (max-width: 768px) {
 
-    .lessons .container{
+    .lessons .container,
+    .steps .container
+    {
          max-width: 100vw;
     } 
      
  }
 
- /* MOBILE */
-
+                    /* MOBILE */
   @media screen and (max-width: 480px) {
 
-        .lessons .row {
+        .lessons .row, 
+        .steps .row
+        {
             flex-direction: column;
             align-items: center;
         }
@@ -151,7 +153,9 @@ img {
             padding: 0;
         }
 
-        .lessons .card {
-                padding-bottom: 2rem;
+        .lessons .card,
+        .steps .card
+        {
+            padding-bottom: 2rem;
         }
   }
